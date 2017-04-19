@@ -59,21 +59,21 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 
     &:nth-child(1) {
       a {
-        background: #29B6F6;
+        background: $primary;
         color: #fff;
       }
     }
 
     &:nth-child(2) {
       a {
-        background: #66BB6A;
+        background: $primary;
         color: #fff;
       }
     }
 
     &:nth-child(3) {
       a {
-        background: #ef5350;
+        background: $primary;
         color: #fff;
       }
     }
@@ -81,19 +81,19 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .alert-info {
-  background-color: #3498db;
+  background-color: $primary;
   border: 0;
   color: #fff;
 }
 
 .alert-success {
-  background-color: #2ecc71;
+  background-color: $primary;
   border: 0;
   color: #fff;
 }
 
 .alert-danger {
-  background-color: #e74c3c;
+  background-color: $primary;
   border: 0;
   color: #fff;
 }
